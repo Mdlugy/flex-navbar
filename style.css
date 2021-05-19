@@ -1,0 +1,42 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(124, 121, 121);
+}
+
+.nav-links{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{color: rgb(255, 255, 255);
+text-decoration: none;
+}
+li{
+    font-size: small;
+    list-style-type: none;
+}
+
+.btn {
+    background-color: #1883c0; /* Green */
+    color: rgb(255, 255, 255);
+    border-color: #000000;
+border-style: solid;
+
+    transition-duration: 0.3s;
+    
+}
+
+.btn:hover {
+    border-color: #000000;
+    background-color: #7c65ce;
+    border-style: solid;
+    }
